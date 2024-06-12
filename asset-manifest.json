@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.40da41e5.css",
+    "main.js": "/myportfolio/static/js/main.d0877841.js",
+    "static/js/453.83234151.chunk.js": "/myportfolio/static/js/453.83234151.chunk.js",
+    "static/media/Contact.jpg": "/myportfolio/static/media/Contact.b22d8addf0d03abfc042.jpg",
+    "static/media/profile-img.webp": "/myportfolio/static/media/profile-img.51fd047b2030c1234a3e.webp",
+    "static/media/Project3.jpg": "/myportfolio/static/media/Project3.9fd72ddb9e80cb83dfad.jpg",
+    "static/media/JavascriptCertificate.png": "/myportfolio/static/media/JavascriptCertificate.71fa586d070095510fdc.png",
+    "static/media/CssCertificate.png": "/myportfolio/static/media/CssCertificate.8fcf1b64d24980fe095d.png",
+    "static/media/logo.webp": "/myportfolio/static/media/logo.33d092e25db768bea17e.webp",
+    "static/media/HtmlCertificate.jpeg": "/myportfolio/static/media/HtmlCertificate.54d7b21aa71c5c810c08.jpeg",
+    "static/media/Project4.jpg": "/myportfolio/static/media/Project4.5398ebaa4b0825e9d6f7.jpg",
+    "static/media/LonavalaBungalowsProject.webp": "/myportfolio/static/media/LonavalaBungalowsProject.4567bb017bf10cfb9e2d.webp",
+    "static/media/RegalVillaProject.webp": "/myportfolio/static/media/RegalVillaProject.164c72e9b45afe5fdc78.webp",
+    "index.html": "/myportfolio/index.html",
+    "main.40da41e5.css.map": "/myportfolio/static/css/main.40da41e5.css.map",
+    "main.d0877841.js.map": "/myportfolio/static/js/main.d0877841.js.map",
+    "453.83234151.chunk.js.map": "/myportfolio/static/js/453.83234151.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40da41e5.css",
+    "static/js/main.d0877841.js"
+  ]
+}
