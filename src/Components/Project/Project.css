@@ -1,0 +1,32 @@
+.projectGridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+    justify-content: center;
+}
+
+.project {
+    width: 100%;
+    padding: 5rem 0;
+    border-bottom: 1px solid black;
+}
+
+.projectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 575px) {
+    .projectGridContainer {
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1024px) {
+    .projectGridContainer {
+        grid-template-columns: repeat(2, 50%);
+        gap: 2rem;
+    }
+}

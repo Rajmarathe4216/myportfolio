@@ -1,0 +1,35 @@
+.titleContainer{
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer h3 {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #fa0068;
+    letter-spacing: 0.025em;
+}
+
+.titleContainer h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+    color: rgb(240, 240, 240);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+@media (max-width:575px) {
+
+    .titleContainer h3 {
+        font-size: 0.6rem;
+    }
+    .titleContainer h1 {
+    font-size: 2rem;
+}
+}

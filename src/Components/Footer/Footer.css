@@ -1,0 +1,13 @@
+.copyrightText{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1.5rem 0;
+    background-color: rgb(27, 27, 27);
+}
+.copyrightText p{
+    text-align: center;
+    color: gray;
+}
+.copyrightText a{
+    color: #fa0068;
+}

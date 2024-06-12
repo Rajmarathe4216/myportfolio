@@ -1,0 +1,110 @@
+.resume {
+    width: 100%;
+    padding: 5rem 0;
+    border-bottom: 1px solid black;
+}
+
+.resumeNav {
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+}
+
+.resume ul {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.resume ul li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    font-size: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #D1D5DB;
+    cursor: pointer;
+}
+
+.resume ul li:hover {
+    background-color: rgba(0, 0, 0, 0.40);
+    border: 1px solid #fa0068;
+}
+
+.resume ul li.active {
+    background-color: rgba(0, 0, 0, 0.40);
+    border: 1px solid #fa0068;
+}
+
+.resumeContainer {
+    display: flex;
+    width: 100%;
+    gap: 6rem;
+}
+
+.resumeNavTitle {
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.resumeNavTitle p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #fa0068;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.resumeNavTitle h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+/*---------------responsive resume nav-------*/
+
+
+@media (max-width: 575px) {
+    .resumeContainer {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    .resume ul li {
+        height: 2.5rem;
+        font-size: 0.45rem;
+    }
+    .resumeNavTitle {
+        padding: 1rem 0;
+    }
+    .resumeNavTitle p {
+        font-size: 0.4rem;
+        letter-spacing: 2px;
+    }
+    
+    .resumeNavTitle h2 {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 900px) {
+    .resumeContainer {
+        gap: 1.5rem;
+    }
+    .resume ul li {
+        height: 4rem;
+        font-size: 0.8rem;
+    }
+    .resumeNavTitle {
+        padding: 2rem 0;
+    }
+    .resumeNavTitle p {
+        font-size: 0.5rem;
+        letter-spacing: 2px;
+    }
+    
+    .resumeNavTitle h2 {
+        font-size: 1.3rem;
+        line-height: 1.2rem;
+    }
+}

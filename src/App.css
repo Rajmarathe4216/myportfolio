@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Outfit;
+  box-sizing: border-box;  
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  font-family: Poppins;
+  background: rgb(43, 43, 43);
+  color: white;
+}
+section{
+  max-width: 80%;
+  height: auto;
+  margin: auto;
+}
