@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import bg from '../../assets/profile-img.webp'
+import bg from '../../assets/bg.jpg'
 import { FaFacebookF, FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
